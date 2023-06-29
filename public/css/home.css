@@ -1,0 +1,126 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body{
+  position: relative;
+  width: 100%;
+  min-height:100vh;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+  background:url('../img/DLJ.jpg');
+  background-size: cover;
+  background-position: center;
+  font-family: 'roboto', sans-serif;
+} 
+
+.container{
+  position: relative;
+  width: 90%;
+ 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} 
+
+.logout{
+  position:absolute;
+  top: 10px;
+  right: 0;
+  padding: 10px 20px;
+  text-transform: capitalize;
+  font-size:16px;
+  color:#fff;
+  background:none;
+  text-decoration: underline;
+  cursor:pointer;
+  outline: none;
+  border: none;
+}
+
+.greeting{
+  padding-left: 150px;
+  font-family: 'dosis';
+  font-size:20px;
+  color: black;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+table {
+  border-collapse: collapse;
+  width: 90%;
+  border: 2px solid #000;
+  margin: 0 auto;
+}
+
+th, td {
+  padding: 8px;
+  border-right: 2px solid #000;
+  border-bottom: 2px solid #000;
+}
+
+th {
+  background-color: #f2f2f2;
+  text-align: left;
+}
+
+/* tr:nth-child(even) {
+  background-color: #f2f2f2;
+} */
+
+.center {
+  text-align: center;
+}
+
+.serial-cell {
+  width: 100px;
+}
+
+.control-cell {
+  width: 200px;
+}
+
+.radio-cell {
+  width: 80px;
+}
+
+.remarks-cell {
+  width: 200px;
+}
+
+th:last-child,
+td:last-child {
+  border-right: none;
+}
+
+.heading{
+  padding: 5px;
+  text-transform: capitalize;
+  text-align: center;
+  font-size: 50px;
+  font-weight: 200;
+  margin-bottom: 10px;
+}
+
+.userinfo {
+  text-align: right;
+  padding-right: 200px;
+  color: black;
+}
+
+.oic {
+  text-align: left;
+  padding-left: 70px;
+}
+
+.print-button {
+  position: fixed;
+  left: 20px;
+  top: 20px;
+  font-size: 16px;
+  padding: 10px 20px;
+}
